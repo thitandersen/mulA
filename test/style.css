@@ -1,0 +1,42 @@
+body {
+  background-color: lightblue;
+}
+.container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 1200px;
+}
+
+/* # refererer til et ID, et ID er unikt (kan kun bruges en gang)*/
+#kasse1 {
+  background-color:#ddd;
+  width:50%
+}
+#kasse2 {
+  background-color:burlywood;
+  width:50%;
+}
+.kasse3 {
+  background-color:orange;
+  margin:40px;
+  padding:20px;
+  border:1px solid #333;
+}
+.special {
+  order:-1;
+}
+.tilsidst {
+  order:1
+}
+/* . refererer til en klasse(class), en klasse kan bruges flere gange*/
+.toben{
+  color:red;
+}
+.fireben{
+  color:lightgreen;
+}
+.highlight {
+  background-color: yellow;
+}
